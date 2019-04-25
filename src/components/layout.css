@@ -1,6 +1,6 @@
 :root {
-    --mainBrown: #2d1ef1;
-    --mainYellow: #ff9e09;
+    --mainBrown: #2d1e1f;
+    --mainYellow: rgb(255, 158, 9);
     --mainGrey: #ece8dc;
     --mainWhite: #fff;
     --mainDark: #222;
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.25rem !important;
 }
 
-.text-yello {
+.text-yellow {
     color: var(--mainYellow);
 }
 
@@ -25,4 +25,31 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
     color: var(--mainYellow);
     font-size: 2rem;
+}
+
+.default-background, .about-background {
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    opacity: 1 !important;
+    background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5)) center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.btn-yellow {
+    color:var(--mainYellow);
+    border-color: var(--mainYellow);
+}
+
+.btn-yellow:hover {
+    background: var(--mainYellow);
+    color: var(--mainBrown);
+}
+.footer {
+    background: var(--mainBrown);
+}
+
+.about-background {
+    min-height: 60vh;
 }
