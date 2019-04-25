@@ -2,8 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from 'gatsby'
-import BackgroundSection from "../components/global/BackgroundSection"
-import Info from "../components/home/info"
+import BackgroundSection from "../components/Global/BackgroundSection"
+import Info from "../components/Home/Info"
 
 const AboutPage = ({data}) => (
   <Layout>
