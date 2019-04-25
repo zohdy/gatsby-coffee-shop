@@ -76,6 +76,3 @@ yarn-error.log
 .iml
 idea/
 iml
-.env
-*.env
-.oste
